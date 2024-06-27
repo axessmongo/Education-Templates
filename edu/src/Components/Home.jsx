@@ -335,7 +335,7 @@ function Home() {
                                         </div>
                                         <p className="rating-text">(5.0/7 Rating)</p>
                                     </div>
-                                    <data className="price" value="29">$29.00</data>
+                                    <data className="price" value="29">₹13,999</data>
                                     <ul className="card-meta-list">
                                         <li className="card-meta-item">
                                             <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
@@ -375,7 +375,7 @@ function Home() {
                                         </div>
                                         <p className="rating-text">(4.5 /9 Rating)</p>
                                     </div>
-                                    <data className="price" value="49">$49.00</data>
+                                    <data className="price" value="49">₹17,999</data>
                                     <ul className="card-meta-list">
                                         <li className="card-meta-item">
                                             <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
@@ -415,7 +415,7 @@ function Home() {
                                         </div>
                                         <p className="rating-text">(4.9 /7 Rating)</p>
                                     </div>
-                                    <data className="price" value="35">$35.00</data>
+                                    <data className="price" value="35">₹19,999</data>
                                     <ul className="card-meta-list">
                                         <li className="card-meta-item">
                                             <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
