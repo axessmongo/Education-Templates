@@ -25,7 +25,6 @@ import videoBannerImg from '../assets/images/video-banner.jpg'
 import herobg from '../assets/images/hero-bg.svg'
 import blogShape from '../assets/images/blog-shape.png';
 import footerBg from '../assets/images/footer-bg.png';
-import logoLight from '../assets/images/logo-light.svg';
 import logo from '../assets/images/logo.png';
 import { IonIcon } from '@ionic/react';
 
@@ -528,9 +527,9 @@ function Home() {
                                             <span className="span">Com 09</span>
                                         </li>
                                     </ul>
-                                    <p className="card-text">
+                                    {/* <p className="card-text">
                                         Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
-                                    </p>
+                                    </p> */}
                                 </div>
                             </div>
                         </li>
@@ -557,9 +556,9 @@ function Home() {
                                             <span className="span">Com 09</span>
                                         </li>
                                     </ul>
-                                    <p className="card-text">
+                                    {/* <p className="card-text">
                                         Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
-                                    </p>
+                                    </p> */}
                                 </div>
                             </div>
                         </li>
@@ -586,9 +585,9 @@ function Home() {
                                             <span className="span">Com 09</span>
                                         </li>
                                     </ul>
-                                    <p className="card-text">
+                                    {/* <p className="card-text">
                                         Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
-                                    </p>
+                                    </p> */}
                                 </div>
                             </div>
                         </li>
@@ -604,18 +603,18 @@ function Home() {
                             <a href="#" className="logo">
                                 <img src={logo} width="100" height="50" alt="EduWeb logo" />
                             </a>
-                            <p className="footer-brand-text">
+                            {/* <p className="footer-brand-text">
                                 Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.
-                            </p>
-                            <div className="wrapper">
+                            </p> */}
+                            {/* <div className="wrapper">
                                 <span className="span">Add:</span>
                                 <address className="address">70-80 Upper St Norwich NR2</address>
-                            </div>
-                            <div className="wrapper">
+                            </div> */}
+                            <div className="wrapper pt-5">
                                 <span className="span">Call:</span>
                                 <a href="tel:+011234567890" className="footer-link" style={{ textDecoration: 'none' }}>+01 123 4567 890</a>
                             </div>
-                            <div className="wrapper">
+                            <div className="wrapper pt-3">
                                 <span className="span">Email:</span>
                                 <a href="mailto:info@eduweb.com" className="footer-link" style={{ textDecoration: 'none' }}>info@eduweb.com</a>
                             </div>
@@ -711,7 +710,7 @@ function Home() {
                 <div className="footer-bottom">
                     <div className="container">
                         <p className="copyright">
-                            Copyright 2022 All Rights Reserved by <a href="#" className="copyright-link">codewithsadee</a>
+                            Copyright 2022 All Rights Reserved by <a href="#" style={{ textDecoration: 'none' }} className="copyright-link">learnflexonline</a>
                         </p>
                     </div>
                 </div>
