@@ -26,7 +26,7 @@ import herobg from '../assets/images/hero-bg.svg'
 import blogShape from '../assets/images/blog-shape.png';
 import footerBg from '../assets/images/footer-bg.png';
 import logoLight from '../assets/images/logo-light.svg';
-import logo from '../assets/images/logo.svg';
+import logo from '../assets/images/logo.png';
 import { IonIcon } from '@ionic/react';
 
 
@@ -38,7 +38,7 @@ function Home() {
                 <div className="container">
 
                     <a href="#" className="logo">
-                        <img src={logo} width="162" height="50" alt="EduWeb logo" />
+                        <img src={logo} width="80" height="50" alt="EduWeb logo" />
                     </a>
 
                     <nav className="navbar" data-navbar>
@@ -602,7 +602,7 @@ function Home() {
                     <div className="container grid-list">
                         <div className="footer-brand">
                             <a href="#" className="logo">
-                                <img src={logoLight} width="162" height="50" alt="EduWeb logo" />
+                                <img src={logo} width="100" height="50" alt="EduWeb logo" />
                             </a>
                             <p className="footer-brand-text">
                                 Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.
