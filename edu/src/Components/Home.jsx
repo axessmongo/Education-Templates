@@ -111,10 +111,12 @@ function Home() {
                 <div className="container">
                     <div className="hero-content">
                         <h1 className="h1 section-title display-1">
-                            The Best Program to <span className="span">Enroll</span> for Exchange
+                            Top Program for Exchange  <span className="span">Enrollment</span>
                         </h1>
                         <p className="hero-text">
-                            Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.
+                            Our exchange program offers unparalleled learning experiences, connecting students with
+                            global perspectives and diverse cultures. Enroll now to enhance your education and broaden
+                            your horizons.
                         </p>
                         <a href="#" className="btns has-before">
                             <span className="span">Find courses</span>
@@ -141,11 +143,11 @@ function Home() {
                     <p className="section-subtitle">Categories</p>
 
                     <h2 className="h2 section-title display-1">
-                        Online <span className="span">Classes</span> For Remote Learning.
+                        Online <span className="span">Classes</span>
                     </h2>
 
                     <p className="section-text">
-                        Consectetur adipiscing elit sed do eiusmod tempor.
+
                     </p>
 
                     <ul className="grid-list">
@@ -159,11 +161,11 @@ function Home() {
                                 </div>
 
                                 <h3 className="h3" >
-                                    <a href="#" className="card-title" style={{ textDecoration: 'none' }}>Online Degree Programs</a>
+                                    <a href="#" className="card-title pt-3" style={{ textDecoration: 'none' }}>Online Degree Programs</a>
                                 </h3>
 
-                                <p className="card-text">
-                                    Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+                                <p className="card-text pt-5">
+                                    Earn your degree from the comfort of your home with our fully online courses.
                                 </p>
 
                                 {/* <span className="card-badges">7 Courses</span> */}
@@ -180,11 +182,11 @@ function Home() {
                                 </div>
 
                                 <h3 className="h3">
-                                    <a href="#" className="card-title" style={{ textDecoration: 'none' }}>Non-Degree Programs</a>
+                                    <a href="#" className="card-title pt-3" style={{ textDecoration: 'none' }}>Non-Degree Programs</a>
                                 </h3>
 
-                                <p className="card-text">
-                                    Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+                                <p className="card-text pt-5">
+                                    Expand your knowledge and skills with our specialized non-degree offerings.
                                 </p>
 
                                 {/* <span className="card-badge">4 Courses</span> */}
@@ -201,11 +203,11 @@ function Home() {
                                 </div>
 
                                 <h3 className="h3">
-                                    <a href="#" className="card-title" style={{ textDecoration: 'none' }}>Off-Campus Programs</a>
+                                    <a href="#" className="card-title pt-3" style={{ textDecoration: 'none' }}>Off-Campus Programs</a>
                                 </h3>
 
-                                <p className="card-text">
-                                    Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+                                <p className="card-text pt-3">
+                                    Experience hands-on learning and real-world applications through our off-campus programs.
                                 </p>
 
                                 {/* <span className="card-badge">8 Courses</span> */}
@@ -222,11 +224,12 @@ function Home() {
                                 </div>
 
                                 <h3 className="h3">
-                                    <a href="#" className="card-title" style={{ textDecoration: 'none' }}>Hybrid Programs</a>
+                                    <a href="#" className="card-title" style={{ textDecoration: 'none' }}>Hybrid Distance Programs</a>
                                 </h3>
 
                                 <p className="card-text">
-                                    Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+                                    Combine online learning with occasional on-campus sessions for a flexible educational
+                                    experience.
                                 </p>
 
                                 {/* <span className="card-badge">8 Courses</span> */}
@@ -265,30 +268,29 @@ function Home() {
                         <p className="section-subtitle">About Us</p>
 
                         <h2 className="h2 section-title display-3">
-                            Over 10 Years in <span className="span">Distant learning</span> for Skill Development
+                        Over 10 years of excellence in  <span className="span">online education.</span>
                         </h2>
 
                         <p className="section-text">
-                            Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna
-                            aliquaenim ad
-                            minim.
+                        Transforming online education with over a decade of expertise.
                         </p>
+                        <p className='section-text fw-bolder'>Key Highlights:</p>
 
                         <ul className="about-list">
 
                             <li className="about-items">
                                 <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-                                <span className="span fs-4">✔️ Expert Trainers</span>
+                                <span className="span fs-4">✔️ Proven track record of delivering high-quality online classes.</span>
                             </li>
 
                             <li className="about-items">
                                 <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-                                <span className="span fs-4">✔️ Online Remote Learning</span>
+                                <span className="span fs-4">✔️  Expert instructors with real-world experience. </span>
                             </li>
 
                             <li className="about-items">
                                 <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-                                <span className="span fs-4">✔️ Lifetime Access</span>
+                                <span className="span fs-4">✔️ Flexible and interactive learning environment.</span>
                             </li>
 
                         </ul>
