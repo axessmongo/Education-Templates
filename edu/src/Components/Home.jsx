@@ -616,7 +616,7 @@ function Home() {
                             </div>
                             <div className="wrapper pt-3">
                                 <span className="span">Email:</span>
-                                <a href="mailto:info@eduweb.com" className="footer-link" style={{ textDecoration: 'none' }}>info@eduweb.com</a>
+                                <a href="mailto:info@eduweb.com" className="footer-link" style={{ textDecoration: 'none' }}>learnflex@online.com</a>
                             </div>
                         </div>
                         <ul className="footer-list">
