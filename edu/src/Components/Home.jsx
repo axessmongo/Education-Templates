@@ -160,10 +160,10 @@ function Home() {
                                 </div>
 
                                 <h3 className="h3" >
-                                    <a href="#" className="card-title pt-3" style={{ textDecoration: 'none' }}>Online Degree Programs</a>
+                                    <a href="#" className="card-title" style={{ textDecoration: 'none' }}>Online Degree Programs</a>
                                 </h3>
 
-                                <p className="card-text pt-5">
+                                <p className="card-text">
                                     Earn your degree from the comfort of your home with our fully online courses.
                                 </p>
 
@@ -181,10 +181,10 @@ function Home() {
                                 </div>
 
                                 <h3 className="h3">
-                                    <a href="#" className="card-title pt-3" style={{ textDecoration: 'none' }}>Non-Degree Programs</a>
+                                    <a href="#" className="card-title " style={{ textDecoration: 'none' }}>Non-Degree Programs</a>
                                 </h3>
 
-                                <p className="card-text pt-5">
+                                <p className="card-text ">
                                     Expand your knowledge and skills with our specialized non-degree offerings.
                                 </p>
 
@@ -202,10 +202,10 @@ function Home() {
                                 </div>
 
                                 <h3 className="h3">
-                                    <a href="#" className="card-title pt-3" style={{ textDecoration: 'none' }}>Off-Campus Programs</a>
+                                    <a href="#" className="card-title " style={{ textDecoration: 'none' }}>Off-Campus Programs</a>
                                 </h3>
 
-                                <p className="card-text pt-3">
+                                <p className="card-text ">
                                     Experience hands-on learning and real-world applications through our off-campus programs.
                                 </p>
 
@@ -246,16 +246,16 @@ function Home() {
 
                     <figure className="about-banner">
 
-                        <div className="img-holder" style={{ '--width': 520, '--height': 370 }}>
+                        <div className="img-holder" style={{ '--width': 550, '--height': 370 }}>
                             <img src={img9} width="520" height="370" loading="lazy" alt="about banner"
                                 className="img-cover" />
                         </div>
 
-                        <img src={img10} width="360" height="420" loading="lazy" alt=""
+                        {/* <img src={img10} width="360" height="420" loading="lazy" alt=""
                             className="shape about-shape-1" />
 
                         <img src={img11} width="371" height="220" loading="lazy" alt=""
-                            className="shape about-shape-2" />
+                            className="shape about-shape-2" /> */}
 
                         <img src={img12} width="722" height="528" loading="lazy" alt=""
                             className="shape about-shape-3" />
@@ -468,14 +468,14 @@ function Home() {
 
                         <li>
                             <div className="stats-card bg-danger-subtle" >
-                                <h3 className="card-title">29.3k</h3>
+                                <h3 className="card-title">2.3k</h3>
                                 <p className="card-text">Student Enrolled</p>
                             </div>
                         </li>
 
                         <li>
                             <div className="stats-card bg-body-secondary" >
-                                <h3 className="card-title">32.4K</h3>
+                                <h3 className="card-title">9.4K</h3>
                                 <p className="card-text">Class Completed</p>
                             </div>
                         </li>
@@ -489,7 +489,7 @@ function Home() {
 
                         <li>
                             <div className="stats-card bg-body-secondary" >
-                                <h3 className="card-title">354+</h3>
+                                <h3 className="card-title">35+</h3>
                                 <p className="card-text">Top Instructors</p>
                             </div>
                         </li>
@@ -502,7 +502,7 @@ function Home() {
             <section className="section blog has-bg-image" id="blog" aria-label="blog">
                 <div className="container">
                     <p className="section-subtitle">Latest Articles</p>
-                    <h2 className="h2 section-title display-1">Get News With Eduweb</h2>
+                    <h2 className="h2 section-title display-1">Get News With LearnFlex</h2>
                     <ul className="grid-list">
                         <li>
                             <div className="blog-card">
@@ -520,7 +520,7 @@ function Home() {
                                     <ul className="card-meta-list">
                                         <li className="card-meta-item">
                                             <i className="bi bi-calendar" aria-hidden="true"></i>
-                                            <span className="span">Oct 10, 2021</span>
+                                            <span className="span">April 10, 2024</span>
                                         </li>
                                         <li className="card-meta-item">
                                             <i className="bi bi-chat-dots" aria-hidden="true"></i>
@@ -549,7 +549,7 @@ function Home() {
                                     <ul className="card-meta-list">
                                         <li className="card-meta-item">
                                             <i className="bi bi-calendar" aria-hidden="true"></i>
-                                            <span className="span">Oct 10, 2021</span>
+                                            <span className="span">April 10, 2024</span>
                                         </li>
                                         <li className="card-meta-item">
                                             <i className="bi bi-chat-dots" aria-hidden="true"></i>
@@ -578,7 +578,7 @@ function Home() {
                                     <ul className="card-meta-list">
                                         <li className="card-meta-item">
                                             <i className="bi bi-calendar" aria-hidden="true"></i>
-                                            <span className="span">Oct 10, 2021</span>
+                                            <span className="span">may 10, 2024</span>
                                         </li>
                                         <li className="card-meta-item">
                                             <i className="bi bi-chat-dots" aria-hidden="true"></i>
@@ -616,7 +616,7 @@ function Home() {
                             </div>
                             <div className="wrapper pt-3">
                                 <span className="span">Email:</span>
-                                <a href="mailto:info@eduweb.com" className="footer-link" style={{ textDecoration: 'none' }}>learnflex@online.com</a>
+                                <a href="#" className="footer-link" style={{ textDecoration: 'none' }}>info@learnflex.online</a>
                             </div>
                         </div>
                         <ul className="footer-list">
@@ -710,7 +710,7 @@ function Home() {
                 <div className="footer-bottom">
                     <div className="container">
                         <p className="copyright">
-                            Copyright 2022 All Rights Reserved by <a href="#" style={{ textDecoration: 'none' }} className="copyright-link">learnflexonline</a>
+                            Copyright©️ 2024 All Rights Reserved by <a href="#" style={{ textDecoration: 'none' }} className="copyright-link">learnflexonline</a>
                         </p>
                     </div>
                 </div>
