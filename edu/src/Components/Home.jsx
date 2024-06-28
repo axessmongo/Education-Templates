@@ -7,7 +7,7 @@ import img5 from '../assets/images/category-1.svg'
 import img6 from '../assets/images/category-2.svg'
 import img7 from '../assets/images/category-3.svg'
 import img8 from '../assets/images/category-4.svg'
-import img9 from '../assets/images/about-banner.jpg'
+import img9 from '../assets/images/about-banner.png'
 import img10 from '../assets/images/about-shape-1.svg'
 import img11 from '../assets/images/about-shape-2.svg'
 import img12 from '../assets/images/about-shape-3.png'
@@ -246,7 +246,7 @@ function Home() {
 
                     <figure className="about-banner">
 
-                        <div className="img-holder" style={{ '--width': 550, '--height': 370 }}>
+                        <div className="" style={{ '--width': 550, '--height': 370 }}>
                             <img src={img9} width="520" height="370" loading="lazy" alt="about banner"
                                 className="img-cover" />
                         </div>
