@@ -130,7 +130,7 @@ function Home() {
                         <div className="img-holder two" style={{ '--width': 240, '--height': 370 }}>
                             <img src={img2} width="240" height="370" alt="hero banner" className="img-cover" />
                         </div>
-                        <img src={img3} width="380" height="190" alt="" className="shape hero-shape-1" />
+                        {/* <img src={img3} width="380" height="190" alt="" className="shape hero-shape-1" /> */}
                         <img src={img4} width="622" height="551" alt="" className="shape hero-shape-2" />
                     </figure>
                 </div>
@@ -610,10 +610,10 @@ function Home() {
                                 <span className="span">Add:</span>
                                 <address className="address">70-80 Upper St Norwich NR2</address>
                             </div> */}
-                            <div className="wrapper pt-5">
+                            {/* <div className="wrapper pt-5">
                                 <span className="span">Call:</span>
                                 <a href="tel:+011234567890" className="footer-link" style={{ textDecoration: 'none' }}>+01 123 4567 890</a>
-                            </div>
+                            </div> */}
                             <div className="wrapper pt-3">
                                 <span className="span">Email:</span>
                                 <a href="#" className="footer-link" style={{ textDecoration: 'none' }}>info@learnflex.online</a>
